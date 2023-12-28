@@ -8,7 +8,7 @@ class statik_keyword
         r_no=x;
         name=y;
     }
-    static change()
+    static void change()
     {
         cname="maharshi";
     }
@@ -22,6 +22,10 @@ class statik_keyword
     {
         statik_keyword s=new statik_keyword();
         s.ip(23,"kinjal");
+        s.op();
+        change();
+        s.op();
+        
 
     }
 }
