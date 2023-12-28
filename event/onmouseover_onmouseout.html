@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>use onmouseover_onmouseout</title>
+    </head>
+    <script type="text/javascript">
+        function over()
+        {
+            document.write("over")
+        }
+        function out()
+        {
+            document.write("out")
+        }
+    </script>
+    <body>
+        <p>
+            bring your mouse inside the division to see the result:
+        </p>
+        <div onmouseover="over()" onmouseout="out()">
+            <h2>
+                this is inside the division
+            </h2>
+        </div>    
+    </body>
+</html>
