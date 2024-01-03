@@ -1,7 +1,5 @@
 //import java.util.Collection;
 import java.util.ArrayList;
-import java.util.Iterator;
-
 class arraylist 
 {
     public static void main(String[] args)
@@ -29,8 +27,21 @@ class arraylist
         a.removeAll(b);
         System.out.println("(removeAll)a="+a);
         
-        a.clear();
-        System.out.println("(clear)a="+a);
+        //a.clear();
+        //System.out.println("(clear)a="+a);
+        a.contains(b);
+        System.out.println("a.contains(b)="+a);
+        a.clone();
+        System.out.println("a.clone()="+a);
+        a.containsAll(b);
+        System.out.println("a.containsAll(b)="+a);
+        a.equals(b);
+        System.out.println("a.equals(b)="+a);
+        a.getFirst();
+        System.out.println("a.getFirst()="+a);
+        a.getLast();
+        System.out.println("a.getLast()="+a);
+
 
     }      
 }
