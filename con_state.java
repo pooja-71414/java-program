@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class con_state
 {
 	int a,b,c,i;
+	@SuppressWarnings("resource")
 	void ip()
 	{
 		Scanner s=new Scanner(System.in);

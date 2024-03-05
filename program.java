@@ -27,6 +27,7 @@ public class program
 	{
 		define d=new define();
 		System.out.print("enter value of a = ");
+		@SuppressWarnings("resource")
 		Scanner s=new Scanner(System.in);
 		d.a=s.nextInt();
 		System.out.print("enter value of b = ");

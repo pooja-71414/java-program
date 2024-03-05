@@ -10,6 +10,7 @@ class iib
 	}
 	public static void main(String[] args)
 	{
+		@SuppressWarnings("unused")
 		iib i=new iib();
 	}
 }

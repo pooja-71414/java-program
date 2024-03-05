@@ -1,10 +1,12 @@
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.LinkedList;
 
 class linkedlist {
 
+    @SuppressWarnings("unchecked")
     public static void main(String[] args)
     {
+        @SuppressWarnings("rawtypes")
         LinkedList a=new LinkedList();
         a.add(100);
         a.add(200);
@@ -15,7 +17,8 @@ class linkedlist {
         System.out.println("a.get(1)"+a.get(1));
         System.out.println("a.get(2)"+a.get(2));
 
-        LinkedList b=new LinkedList<>();
+        @SuppressWarnings("rawtypes")
+        LinkedList b=new LinkedList();
 
         b.add(567);
         b.add(200);

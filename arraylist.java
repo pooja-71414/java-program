@@ -2,6 +2,7 @@
 import java.util.ArrayList;
 class arraylist 
 {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     public static void main(String[] args)
     {
         ArrayList a=new ArrayList();

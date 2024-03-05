@@ -30,7 +30,7 @@ public class operator
         d.b=s.nextInt();
         d.op();
         d.operator_use();
-        
+        s.close();
     }
 }
 

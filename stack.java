@@ -1,8 +1,10 @@
 import java.util.Stack;
 
 class stack {
+    @SuppressWarnings("unchecked")
     public static void main(String[] args)
     {
+        @SuppressWarnings("rawtypes")
         Stack s=new Stack();
         s.push("aish");
         s.push("baby");
