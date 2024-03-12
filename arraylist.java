@@ -38,10 +38,10 @@ class arraylist
         System.out.println("a.containsAll(b)="+a);
         a.equals(b);
         System.out.println("a.equals(b)="+a);
-        a.getFirst();
-        System.out.println("a.getFirst()="+a);
-        a.getLast();
-        System.out.println("a.getLast()="+a);
+        // a.getFirst();
+        // System.out.println("a.getFirst()="+a);
+        // a.getLast();
+        // System.out.println("a.getLast()="+a);
 
 
     }      
