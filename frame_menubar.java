@@ -1,8 +1,4 @@
 import java.awt.*;
-/*
- <applet code="frame_menubar.class" height="500" width="1000">
- </applet>
- */
 public class frame_menubar extends Frame
 {
     frame_menubar(String title)
