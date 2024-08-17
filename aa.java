@@ -22,4 +22,9 @@ public class aa extends Applet
     
 
     }
+
+    public void f0() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'f0'");
+    }
 }
